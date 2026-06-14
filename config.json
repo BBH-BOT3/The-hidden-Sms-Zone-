@@ -6,7 +6,7 @@
     "author": "Your Name",
     "created_date": "2026-06-14"
   },
-  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "bot_token": "8723991500:AAELWOcsCIu2B2dKFKzFniaFfiiayVd_IsM",
   "settings": {
     "polling_timeout": 30,
     "connection_pool_size": 32,
