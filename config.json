@@ -1,0 +1,66 @@
+{
+  "bot_info": {
+    "name": "The hidden Sms Zone",
+    "version": "1.0.0",
+    "description": "একটি সম্পূর্ণ নাম্বার প্যানেল বট যা বিভিন্ন দেশের ভার্চুয়াল নাম্বার প্রদান করে",
+    "author": "Your Name",
+    "created_date": "2026-06-14"
+  },
+  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "settings": {
+    "polling_timeout": 30,
+    "connection_pool_size": 32,
+    "max_retries": 3,
+    "retry_delay": 5
+  },
+  "features": {
+    "country_selection": true,
+    "platform_selection": true,
+    "number_generation": true,
+    "otp_generation": true,
+    "number_change": true,
+    "platform_change": true,
+    "active_numbers_list": true,
+    "help_menu": true
+  },
+  "countries": {
+    "total": 10,
+    "list": [
+      "Bangladesh",
+      "India",
+      "Pakistan",
+      "Zambia",
+      "Uganda",
+      "Kenya",
+      "Ghana",
+      "Nigeria",
+      "Ethiopia",
+      "Mozambique"
+    ]
+  },
+  "platforms": {
+    "total": 5,
+    "list": [
+      "Facebook",
+      "WhatsApp",
+      "Instagram",
+      "TikTok",
+      "Telegram"
+    ]
+  },
+  "database": {
+    "type": "in_memory",
+    "auto_save": false,
+    "save_interval": 3600
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "bot.log"
+  },
+  "messages": {
+    "welcome": "স্বাগতম! The hidden Sms Zone এ আপনাকে স্বাগতম।",
+    "error": "একটি ত্রুটি ঘটেছে। দয়া করে আবার চেষ্টা করুন।",
+    "invalid_input": "অবৈধ ইনপুট। দয়া করে সঠিক অপশন নির্বাচন করুন।"
+  }
+}

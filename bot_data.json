@@ -1,0 +1,66 @@
+{
+  "users": {},
+  "numbers": {
+    "Bangladesh_Facebook": [
+      {
+        "number": "+8801700000001",
+        "otp": "123456",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      },
+      {
+        "number": "+8801700000002",
+        "otp": "234567",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      },
+      {
+        "number": "+8801700000003",
+        "otp": "345678",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      }
+    ],
+    "Bangladesh_WhatsApp": [
+      {
+        "number": "+8801800000001",
+        "otp": "456789",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      },
+      {
+        "number": "+8801800000002",
+        "otp": "567890",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      }
+    ],
+    "India_Facebook": [
+      {
+        "number": "+919000000001",
+        "otp": "678901",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      },
+      {
+        "number": "+919000000002",
+        "otp": "789012",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      }
+    ],
+    "India_WhatsApp": [
+      {
+        "number": "+919100000001",
+        "otp": "890123",
+        "created_date": "2026-06-14T00:00:00",
+        "used": false
+      }
+    ]
+  },
+  "statistics": {
+    "total_users": 0,
+    "total_requests": 0,
+    "created_date": "2026-06-14T00:00:00"
+  }
+}
